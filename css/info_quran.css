@@ -26,12 +26,31 @@ body {
     
 }
 
-header{
+.entête{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
     width: 100%;
     font-family: 'Shrikhand', cursive;
     font-size: clamp(1rem, 4vw, 1.5rem);
-    text-align: center;
+}
+
+header{
     grid-area: header;
+}
+
+.calligraphie{
+    font-family: 'Amiri Quran', serif;
+}
+
+.intro{
+    border: 5px dotted #333;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 h2{
