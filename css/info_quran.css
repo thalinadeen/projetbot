@@ -194,13 +194,13 @@ table{
     margin-left: auto; 
     margin-right: auto;
     border-collapse: collapse;
-    color: #000;
 }
 
 td, th{
     padding: 10px;
     border: 1px solid;
     text-align: center;
+    border: 1px solid goldenrod;
 }
 
 tr:nth-child(1){
